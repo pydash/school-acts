@@ -1,3 +1,14 @@
+#PROMPT
+"""
+Mark Daniels is a carpenter who creates personalized house signs. He wants an application to compute the price of any sign a customer orders, based on the following factors:
+a. The minimum charge for all signs is PHP 300.
+b. If the sign is made of oak, add PHP 150. No charge is added for pine.
+c. The first six letters or numbers are included in the minimum charge; there is PHP 30 charge for each additional character.
+d. Black or white characters are included in the minimum charge; there is an additional PHP 120 charge for gold.
+Draw a flowchart and pseudocode that accepts data for an order number, customer name, wood type, number of characters and color of characters. Display the final price for the sign.
+"""
+
+
 import random
 
 def formatName(firstName, middleName, lastName):
