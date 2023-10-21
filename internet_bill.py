@@ -157,7 +157,7 @@ def package_b(base_bill):
 
 def package_c(base_bill):
     total_bill = base_bill + 900
-    print(f"Bill is {total_bill}")
+    print(f"Bill: ₱{total_bill}.")
     exit
 
 package = get_package()
