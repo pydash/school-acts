@@ -1,3 +1,24 @@
+#PROMPT
+"""
+An Internet Service Provider (ISP) has three different subscription packages for its customers:
+Package A: For Php200.00 per month, 10 hours of access are provided. Additional hours are Php15.00 per hour.
+Package B: For Php500.00 per month, 20 hours of access are provided. Additional hours are Php10.00 per hour.
+Package C: For Php900.00 per month, unlimited access is provided.
+
+Calculates a customer monthly bill. It should ask which package the customer has purchased, what month (in terms of numeric), 
+and how many hours were used. It should then display the total amount due. Make sure that the following input validations will be considered:
+
+· The user only selects packages A, B, or C.
+· The month entered is a valid month.
+· The number of hours should not exceeds the total number of hours per month based on the data below:
+
+Months with 31 days – 744 hours
+Months with 30 days – 720 hours
+Month with 28 days – 672 hours
+"""
+
+
+
 base_bill = 0
 total_bill = 0
 month_with_31_days = [1, 3, 5, 7, 8, 10, 12]
